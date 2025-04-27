@@ -1,0 +1,91 @@
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+
+   body {
+     background-color: #0f172a;
+     color: #ffffff;
+     font-family: Arial, sans-serif;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+   .container {
+     padding: 20px;
+   }
+
+   .advice-box {
+     background-color: #1e293b;
+     padding: 30px 20px;
+     border-radius: 10px;
+     text-align: center;
+     max-width: 500px;
+     width: 100%;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+   }
+
+   .advice-id {
+     color: #4ade80;
+     font-size: 14px;
+     margin-bottom: 15px;
+     letter-spacing: 1px;
+   }
+
+   .advice-text {
+     font-size: 18px;
+     line-height: 1.5;
+     margin-bottom: 20px;
+   }
+
+   .separator {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+     gap: 10px;
+   }
+
+   .line {
+     height: 1px;
+     background-color: #334155;
+     flex: 1;
+   }
+
+   .pause-icon {
+     display: flex;
+     gap: 4px;
+   }
+
+   .bar {
+     width: 3px;
+     height: 12px;
+     background-color: #ffffff;
+     border-radius: 1px;
+   }
+
+   .circle-button {
+     background-color: #4ade80;
+     border: none;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     cursor: pointer;
+     transition:  0.3s ease;
+   }
+
+   .circle-button:hover {
+     background-color: #22c55e;
+   }
+
+   .dots {
+     font-size: 18px;
+     color: black;
+   }
